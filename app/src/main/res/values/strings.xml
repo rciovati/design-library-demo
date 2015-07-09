@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">DesignLibraryDemo</string>
+
+  <string name="title_activity_navigationview">NavigationView</string>
+  <string name="title_activity_fab">FloatingActionButton</string>
+  <string name="title_activity_tab_layout">TabLayout</string>
+  <string name="title_activity_app_bar_layout">AppBarLayout</string>
+  <string name="title_activity_collapsing_toolbar_layout">CollapsingToolbarLayout</string>
+  <string name="title_activity_text_input_layout">TextInputLayout</string>
+  <string name="title_activity_main">Android Design Demo</string>
+  <string name="title_activity_snackbar">SnackBar</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+  <string name="navigation_item_1">Item 1</string>
+  <string name="navigation_item_2">Item 2</string>
+  <string name="navigation_subheader">Sub Header</string>
+  <string name="navigation_sub_item_1">Sub Item 1</string>
+  <string name="navigation_sub_item_2">Sub Item 2</string>
+  <string name="show_snackbar_button_label">Show Snackbar</string>
+  <string name="edit_text_hint">EditText Hint</string>
+  <string name="name_hint">Name</string>
+  <string name="surname_edittext_hint">Surname</string>
+</resources>

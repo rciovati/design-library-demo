@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.rciovati.designlibrarydemo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".NavigationViewActivity"
+            android:label="@string/title_activity_navigationview"
+            android:theme="@style/AppTheme.TransparentStatusBar" >
+        </activity>
+        <activity
+            android:name=".FloatingActionButtonActivity"
+            android:label="@string/title_activity_fab" />
+        <activity
+            android:name=".SnackbarActivity"
+            android:label="@string/title_activity_snackbar" >
+        </activity>
+        <activity
+            android:name=".TextInputLayoutActivity"
+            android:label="@string/title_activity_text_input_layout" >
+        </activity>
+        <activity
+            android:name=".TabLayoutActivity"
+            android:label="@string/title_activity_tab_layout" >
+        </activity>
+        <activity
+            android:name=".AppBarLayoutActivity"
+            android:label="@string/title_activity_app_bar_layout" >
+        </activity>
+        <activity
+            android:name=".CollapsingToolbarLayoutActivity"
+            android:label="@string/title_activity_collapsing_toolbar_layout" >
+        </activity>
+      <activity android:name=".MainActivity"
+          android:label="@string/title_activity_main">
+        <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+    </application>
+</manifest>
